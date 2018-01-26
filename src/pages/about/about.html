@@ -1,11 +1,33 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Cadastro
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
+
+  <ion-list>
+
+      <ion-avatar item-start>
+          <img src="assets/imagens/oioi.png">
+        </ion-avatar>
+        
+        <ion-item>
+            <ion-input type="text" placeholder=" Nome "></ion-input>
+          </ion-item>
+  
+          <ion-item>
+              <ion-input type="text" placeholder=" Telefone "></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-input type="text" placeholder=" E-mail "></ion-input>
+              </ion-item>
+    
+    <button ion-button full (click)="showAlert()"> Cadastrar </button>
+
+  </ion-list> 
 
 </ion-content>
